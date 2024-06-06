@@ -6,7 +6,7 @@
 
 *.html linguist-detectable=false
 
-*.css linguist-detectable=true
+*.css linguist-detectable=false
 
 /.github export-ignore
 CHANGELOG.md export-ignore

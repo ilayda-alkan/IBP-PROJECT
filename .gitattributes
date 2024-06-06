@@ -1,11 +1,19 @@
-* text=auto eol=lf
-
+# Dil ayarları
 *.blade.php diff=html
 *.css diff=css
 *.html diff=html
 *.md diff=markdown
 *.php diff=php
 *.php linguist-language=PHP
+
+# Dışarıda bırakılacak dosyalar ve dizinler
 /.github export-ignore
+/node_modules linguist-vendored
+/public/js linguist-vendored
+/public/css linguist-vendored
+/storage linguist-vendored
+/vendor linguist-vendored
+
+# Doküman ve yapılandırma dosyaları dil analizinde dikkate alınmasın
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
